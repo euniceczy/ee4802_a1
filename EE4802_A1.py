@@ -4,7 +4,7 @@ import streamlit as st
 
 @st.cache 
 #LOAD DATA...
-df2 = pd.read_csv("/Users/eczy/Desktop/resale_flat_prices_based_on_registration_date_from_jan_2017_onwards.csv")
+df2 = pd.read_csv('https://raw.githubusercontent.com/euniceczy/ee4802_a1/master/resale_flat_prices_based_on_registration_date_from_jan_2017_onwards.csv')
 
 #TITLE
 st.title("EE4802 Assignment 1 HDB Price Prediction")
